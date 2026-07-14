@@ -7,7 +7,7 @@
 * function/logika
 */
 
-/// Documentation Comment [Main]
+/// Documentation Comment [main]
 /// Aturan dari Documentation Comment:
 /// 1. Diawali dengan ///
 /// 2. Untuk memanggil function menggunakan []
