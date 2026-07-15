@@ -23,4 +23,22 @@ void main(List<String> args) {
   print(a <= b); //false
   print(a >= b); //true
 
+  // Logic Gate
+  var c = 10;
+  var d = 3;
+
+  if (c < 10 || d > 1) {
+    print('Benar');
+  } else {
+    print('SALAH');
+  } // output = Benar
+
+  // Dibaca dari kiri
+  // ignore: dead_code
+  if (false || true && false) {
+    print('Benar');
+  } else {
+    print('Salah');
+  } //output = salah
+
 }
