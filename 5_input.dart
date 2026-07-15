@@ -9,5 +9,5 @@ void main(List<String> args) {
 main2() {
   stdout.write('Umur saya: ');
   int age = int.parse(stdin.readLineSync()!);
-  print('Umur = $age');
+  return 'Umur = $age';
 }

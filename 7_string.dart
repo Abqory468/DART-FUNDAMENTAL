@@ -11,6 +11,6 @@ void main(List<String> args) {
   print('Hello My Name is $name, dan aku mempunyai pendapatan \$10000/bulan');
   // \ dinamakan escape string
 
-  // unicode
-  print('\u{1f600}');
+  // unicode 
+  print('\u{1f600}'); // emoji
 }
