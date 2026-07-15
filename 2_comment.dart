@@ -2,7 +2,7 @@
 // Digunakan menonaktifkan kode baris atau
 // menandakan sebuah catatan
 
-/* Multiline Comment
+/** Multiline Comment
 * Biasanya digunakan untuk menjelaskan sebuah
 * function/logika
 */
@@ -17,9 +17,9 @@ void main(List<String> args) {
   // mencetak Hello Guys!
   print('Hello Guys!');
 
-  print('object');
+  print(age());
 }
 
-int age(){
+int age() {
   return 17;
 }
