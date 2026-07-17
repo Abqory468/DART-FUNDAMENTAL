@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main(List<String> args) {
   // Operator aritmatika
   var a = 5;
@@ -19,6 +21,6 @@ void main(List<String> args) {
   print(c); // output 11
   print(d); // output 4
 
-  var f = 0;
-  f += 5; // output = 5
+  var x = 0;
+  x += 5; // output = 5
 }

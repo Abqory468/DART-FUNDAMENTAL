@@ -3,7 +3,7 @@ void main(List<String> args) {
   stdout.write('Suhu Fahrenheit: ');
   double suhuF = double.parse(stdin.readLineSync()!);
 
-  print('Hasil konversi ke Celcius: ${konversi(suhuF)}');
+  print('Hasil konversi ke Celcius: ${konversi(suhuF).toStringAsFixed(2)} °C');
 }
 
 double konversi(double suhuF) {
