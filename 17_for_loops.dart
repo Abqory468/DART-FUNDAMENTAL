@@ -13,15 +13,25 @@ void main(List<String> args) {
   // }
 
   // challange
-  for (int i = 1; i <= 5; i++) {
-    print('*' * i);
-  }
+  // for (int i = 1; i <= 5; i++) {
+  //   print('*' * i);
+  // }
 
-  for (int i = 5; i >= 1; i--) {
-    print('*' * i);
-  }
+  // // Kebalik
+  // for (int i = 5; i >= 1; i--) {
+  //   print('*' * i);
+  // }
 
+  // // Pyramid
+  // for (int i = 1; i <= 5; i++) {
+  //   print(' ' * (5 - i) + '*' * (2 * i - 1));
+  // }
+
+  // Belah Ketupat
   for (int i = 1; i <= 5; i++) {
+    print(' ' * (5 - i) + '*' * (2 * i - 1));
+  }
+  for (int i = 4; i >= 1; i--) {
     print(' ' * (5 - i) + '*' * (2 * i - 1));
   }
 
