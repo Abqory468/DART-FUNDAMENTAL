@@ -1,5 +1,5 @@
 import 'dart:io';
-void main(List<String> args) {
+void main() {
   stdout.write('Nama saya: ');
   String name = stdin.readLineSync()!; // Tanda ! menandakan bahwa ini tidak null
   print('Hello $name');
