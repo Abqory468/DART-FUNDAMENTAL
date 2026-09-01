@@ -1,9 +1,9 @@
 // menampung data unik, tidak duplukat
 
 void main(List<String> args) {
-  // penggunaan Set Generit
-  Set<int> angka = {1, 2, 3, 3, 4, 5, 5};
-  print(angka); // yang muncul hanya 1 jika data duplikat
+  // // penggunaan Set Generit
+  // Set<int> angka = {1, 2, 3, 3, 4, 5, 5};
+  // print(angka); // yang muncul hanya 1 jika data duplikat
 
   // penggunaan Set dengan variabel
   var number = {1, 2, 3, 4};
@@ -13,7 +13,7 @@ void main(List<String> args) {
   print(number);
 
   // .addAll nambah banyak sekaligus
-  number.addAll({6, 7, 12, 19, 12, 13, 8});
+  // number.addAll({6, 7, 12, 19, 12, 13, 8});
   print(number);
 
   number.remove(12);

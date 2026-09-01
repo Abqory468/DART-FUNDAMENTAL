@@ -15,6 +15,8 @@ void main() {
     'hobby' : ['sleep', 'reading']
   };
 
+  print(bio);
+
   // Inference
   var biodata = {
     'name' : 'Ucup',
