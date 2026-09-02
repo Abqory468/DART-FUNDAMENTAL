@@ -9,5 +9,5 @@ void main(List<String> args) {
   cat.eat();
   print(cat.weight);
 
-  
+  print(rose.latinName);
 }
