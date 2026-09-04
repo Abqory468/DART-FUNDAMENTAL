@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'cat.dart';
 
 void main(List<String> args) {

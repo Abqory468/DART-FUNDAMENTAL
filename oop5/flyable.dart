@@ -1,0 +1,3 @@
+class Flyable {
+  fly() {}
+}
